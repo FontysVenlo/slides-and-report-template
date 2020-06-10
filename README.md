@@ -42,8 +42,8 @@ A useful template for making your slides with markdown and revealjs and on top o
 
 ## Why?
 
-- normal presentations kind of boring<!-- .element: class="fragment" -->
-- still differnces in the platforms even for MS power point, e.g. Windows, Mac or Linux.<!-- .element: class="fragment" -->
+- normal presentations are boring<!-- .element: class="fragment" -->
+- still differences in the platforms even in MS power point, e.g. Windows, Mac or Linux.<!-- .element: class="fragment" -->
 - Usually you multiple sources and multiple output documents so not only slides but maybe also papers you would like to provide for the students.<!-- .element: class="fragment" -->
 - These papers are currently in pdf form delivered to the students, and can also be simple pdfs of the slides.<!-- .element: class="fragment" -->
 - Solution wanted having one single source and decide what to have in the slides and maybe also additional and more detaillled information in a paper as pdf, docx or webpage.<!-- .element: class="fragment" -->
@@ -61,7 +61,10 @@ A useful template for making your slides with markdown and revealjs and on top o
 
 ## How to use this template
 
-- Use this as **template** instead of cloning it, so you get rid of all the commits. Click on the template-button near to the cloning option ![Template button](images/template-button.jpg)
+- Use this as **template** instead of cloning it, so you get rid of all the commits. Click on the template-button near to the cloning option 
+  
+![Template button](images/template-button.jpg)
+
 - Now you can create an own repository based on this repository.
 
 <!-- s -->
@@ -69,9 +72,15 @@ A useful template for making your slides with markdown and revealjs and on top o
 ## Create a report
 
 - Luckily, it will be done automatically by github actions (due to the [make-pdf.yml file](.github/workflows/make-pdf.yml)) of course
-- If you now click on Actions tab and then on the first build ![Actions tab](images/actions1.jpg) 
+- If you now click on Actions tab and then on the first build 
+
+![Actions tab](images/actions1.jpg) 
+
 <!-- s -->
-- then click on the report.pdf file if the build is green ![Actions tab](images/actions2.jpg) 
+- then click on the report.pdf file if the build is green 
+
+![Actions tab](images/actions2.jpg) 
+
 - you will download a PDF which was generated from the README.md file. Nice! 
 - How to adapt that see a later chapter. 
   
@@ -147,12 +156,14 @@ date: "2020-06-10"
 <!-- v -->
 
 ![separators](images/reveal4.jpg)
+
 - **separator:** Defines a separator for horizontal slides. Look into this README.md file how this works. If you put this comment into the markdown text, the report will ignore it and revealjs will create a slide page. So you have to define what should be on your slides. 
 
   
 <!-- v -->
 
 ![separators](images/reveal4.jpg)
+
 - **verticalSeparator:** Defines a vertical separator, means that if you put this in the markdown text, then a vertical slide will be created. This means you can navigate with arrow-down on the keyboard to this slide. 
 - **HINT** I use this a lot for **hiding** information in slides or provide backup slides or just **hide** stuff in slide so that it is only in the PDF report. Advantage: get the details out of the presentation but still have it available if necessary. Look it up in this README.md code. E.g. this part is also not horizontally visible, thus available on the last slide by going **down**
  
