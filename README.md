@@ -98,7 +98,8 @@ docker run --rm -p 1948:1948 -v `pwd`:/slides webpronl/reveal-md:latest
 <!-- s -->
 
 - Now open `http://localhost1948`in your browser.
-- click on the README.md link: ![README.md](images/reveal2.jpg)
+- click on the README.md link: 
+![README.md](images/reveal2.jpg)
 - HTML Presentation starts!
 
 ![README.md](images/reveal3.jpg)
@@ -154,5 +155,15 @@ date: "2020-06-10"
 ![separators](images/reveal4.jpg)
 - **verticalSeparator:** Defines a vertical separator, means that if you put this in the markdown text, then a vertical slide will be created. This means you can navigate with arrow-down on the keyboard to this slide. 
 - **HINT** I use this a lot for **hiding** information in slides or provide backup slides or just **hide** stuff in slide so that it is only in the PDF report. Advantage: get the details out of the presentation but still have it available if necessary. Look it up in this README.md code. E.g. this part is also not horizontally visible, thus available on the last slide by going **down**
-
+ 
 <!-- v -->
+
+- `transition: 'slide'` - set the transition from slide to slide to None - Fade - Slide - Convex - Concave - Zoom 
+- `parallaxBackgroundImage: 'images/fontys-parallax-all.jpg'` - nice feature of having a parallax background image, means it moves when going from slide to slide. 
+- `autoSlide: 4000` - have your presentation run automatically, 4000 means 4 seconds
+
+### More information and links
+
+- [webpro/reveal-md: reveal.js on steroids! Get beautiful reveal.js presentations from any Markdown file](https://github.com/webpro/reveal-md)
+- [The HTML presentation framework | reveal.js](https://revealjs.com/)
+- [Präsentationen mit Markdown, reveal.js und Github Pages: mein neuer Workflow – Lost and Found (GERMAN)](https://wittenbrink.net/lostandfound/praesentationen-mit-markdown-reveal-js-und-github-pages-mein-neuer-workflow/)
