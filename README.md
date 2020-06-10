@@ -1,10 +1,10 @@
 ---
-title: "Development Processes Course"
-subtitle: "CI/CD introduction"
+title: "Presentation slides and report template"
+subtitle: "How to make slides and a report with markdown from one source"
 author: [Stefan Sobek]
-date: "2020-05-18"
-subject: "Development Processes"
-keywords: [Fontys, Agile, CI-CD]
+date: "2020-06-10"
+subject: "How to make slides and a report with markdown from one source"
+keywords: [Fontys, Markdown, Agile]
 lang: "en"
 titlepage: "true"
 logo: "images/fontyslogo.png"
