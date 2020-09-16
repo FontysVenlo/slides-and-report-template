@@ -15,6 +15,7 @@ page-background : "images/fontyslogo-background.png"
 theme: simple
 separator: <!-- s -->
 verticalSeparator: <!-- v -->
+notesSeparator: <!-- n -->
 revealOptions:
   # None - Fade - Slide - Convex - Concave - Zoom
   transition: 'slide'
@@ -86,7 +87,6 @@ A useful template for making your slides with markdown and revealjs and on top o
   
 <!-- s -->  
 
-
 ## Create a presentation
 
 - Now I want a presentation from the same content.
@@ -127,7 +127,6 @@ docker run --rm -p 1948:1948 -v `pwd`:/slides webpronl/reveal-md:latest
 
 - to change it you have to change the parameters in the beginning of the document, here a snippet:
 
-
 <!-- v -->
 
 ```json
@@ -159,14 +158,34 @@ date: "2020-06-10"
 
 - **separator:** Defines a separator for horizontal slides. Look into this README.md file how this works. If you put this comment into the markdown text, the report will ignore it and revealjs will create a slide page. So you have to define what should be on your slides. 
 
-  
 <!-- v -->
 
 ![separators](images/reveal4.jpg)
 
 - **verticalSeparator:** Defines a vertical separator, means that if you put this in the markdown text, then a vertical slide will be created. This means you can navigate with arrow-down on the keyboard to this slide. 
 - **HINT** I use this a lot for **hiding** information in slides or provide backup slides or just **hide** stuff in slide so that it is only in the PDF report. Advantage: get the details out of the presentation but still have it available if necessary. Look it up in this README.md code. E.g. this part is also not horizontally visible, thus available on the last slide by going **down**
- 
+<!-- v -->
+- **notesSeparator:** Defines a separator for speaker notes. The setting currently is: `notesSeparator: <!-- n -->`
+If you put `<!-- n -->` somewhere in the text and your speaker notes here, they will not be shown in the slides. Good thing is, these notes will be generated when you generate a pdf-report. 
+
+Example: 
+
+```
+## Project Portfolio Management
+
+- Organizations group and manage projects and programs as a portfolio of investments<!-- .element: class="fragment" -->
+
+<!-- n -->
+- These Porfolio investments contribute to the entire enterprise’s success
+- Portfolio managers help their organizations make wise investment decisions by helping to select and analyze projects from a strategic perspective
+```
+If you now press the **s** key the speaker notes pop up: 
+![speaker notes](images/speaker-notes.jpg)
+
+presentation slide looks like:
+![Slide view](images/slide-notes.jpg)
+
+
 <!-- v -->
 
 - `transition: 'slide'` - set the transition from slide to slide to None - Fade - Slide - Convex - Concave - Zoom 
