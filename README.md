@@ -12,7 +12,7 @@ titlepage-rule-color: "400070"
 page-background : "images/fontyslogo-background.png"
 # reveal settings
 # simple black white league beige sky night serif simple solarized blood moon
-theme: simple
+theme: night
 separator: <!-- s -->
 verticalSeparator: <!-- v -->
 notesSeparator: <!-- n -->
