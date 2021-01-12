@@ -12,7 +12,7 @@ titlepage-rule-color: "400070"
 page-background : "images/fontyslogo-background.png"
 # reveal settings
 # simple black white league beige sky night serif simple solarized blood moon
-theme: night
+theme: black
 separator: <!-- s -->
 verticalSeparator: <!-- v -->
 notesSeparator: <!-- n -->
@@ -25,7 +25,7 @@ revealOptions:
   progress: true
   width: 1248
   height: 800
-  parallaxBackgroundImage: 'images/fontys-parallax-all.jpg'
+  parallaxBackgroundImage: 'images/fontys-parallax-all-dark.jpg'
   parallaxBackgroundSize: '2100px 1024px'
   #autoSlide: 4000
   #loop: true
