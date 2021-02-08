@@ -2,6 +2,7 @@
 title: "Presentation slides and report template"
 subtitle: "How to make slides and a report with markdown from one source"
 author: [Stefan Sobek]
+# bibliography: paper.bib
 date: "2020-06-10"
 subject: "How to make slides and a report with markdown from one source"
 keywords: [Fontys, Markdown, Agile]
@@ -40,6 +41,8 @@ revealOptions:
 A useful template for making your slides with markdown and revealjs and on top of that create a nice pdf with eisvogel template.
 
 <!-- s -->
+
+The seminal work [@pizza2000identification]
 
 ## Why?
 
