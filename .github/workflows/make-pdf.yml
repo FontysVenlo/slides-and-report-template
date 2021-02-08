@@ -15,10 +15,3 @@ jobs:
         with:
           name: report-eisvogel-template.pdf
           path: output
-      - uses: docker://dalibo/pandocker:latest
-        with: 
-          args: "README.md -o output/report-cleanthesis-template.pdf --toc --pdf-engine=xelatex --template=./cleanthesis.latex --listing"
-      - uses: actions/upload-artifact@master
-        with:
-          name: report-cleanthesis-template.pdf
-          path: output
