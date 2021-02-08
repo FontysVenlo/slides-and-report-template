@@ -10,7 +10,7 @@ jobs:
       - run: mkdir output
       - uses: docker://dalibo/pandocker:latest
         with: 
-          args: "README.md -o output/report-eisvogel-template.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing -V mainfont=\"DejaVu Sans\""
+          args: "README.md -o output/report-eisvogel-template.pdf -F pandoc-crossref -F pandoc-citeproc --toc -N --pdf-engine=xelatex --template=./eisvogel.latex --listing -V mainfont=\"DejaVu Sans\""
       - uses: actions/upload-artifact@master
         with:
           name: report-eisvogel-template.pdf
