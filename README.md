@@ -116,6 +116,15 @@ docker run --rm -p 1948:1948 -v `pwd`:/slides webpronl/reveal-md:latest
 
 ![README.md](images/reveal3.jpg)<!-- .element: class="fragment fade-up" -->
 
+<!-- s -->
+
+## Presentation automatically published on Github Pages
+
+- With the deploy-slides.yml file the presentation will be automatically published to github pages.
+- Check the settings of your repository, and activate github pages on gh-pages branch
+- done! You can access it online via the url which is published there.
+
+
 <!-- v -->
 
 ## Further information
