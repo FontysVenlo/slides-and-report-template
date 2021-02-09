@@ -24,7 +24,7 @@ A useful template for making your slides with markdown and revealjs and on top o
 
 ## Why?
 
-- normal presentations are boring<!-- .element: class="fragment" -->
+- normal presentations are boring<!-- .element: class="fragment fade-up" -->
 - still differences in the platforms even in MS power point, e.g. Windows, Mac or Linux.<!-- .element: class="fragment" -->
 - Usually you multiple sources and multiple output documents so not only slides but maybe also papers you would like to provide for the students.<!-- .element: class="fragment" -->
 - These papers are currently in pdf form delivered to the students, and can also be simple pdfs of the slides.<!-- .element: class="fragment" -->
@@ -34,37 +34,37 @@ A useful template for making your slides with markdown and revealjs and on top o
 
 ## Current solution
 
-- [The HTML presentation framework | reveal.js](https://revealjs.com/) presentations.
-- is still tech based (HTML)
-- Now based on Markdown, as simple language
-- Simple to write and support for transforming it into other document types, e.g. with pandoc is pretty good.
+- [The HTML presentation framework | reveal.js](https://revealjs.com/) presentations.<!-- .element: class="fragment fade-up" -->
+- is still tech based (HTML)<!-- .element: class="fragment fade-up" -->
+- Now based on Markdown, as simple language<!-- .element: class="fragment fade-up" -->
+- Simple to write and support for transforming it into other document types, e.g. with pandoc is pretty good.<!-- .element: class="fragment fade-up" -->
 
 </script></section><section  data-markdown><script type="text/template">
 
 ## How to use this template
 
-- Use this as **template** instead of cloning it, so you get rid of all the commits. Click on the template-button near to the cloning option 
+- Use this as **template** instead of cloning it, so you get rid of all the commits. Click on the template-button near to the cloning option <!-- .element: class="fragment fade-up" -->
   
-![Template button](images/template-button.jpg)
+![Template button](images/template-button.jpg)<!-- .element: class="fragment fade-up" -->
 
-- Now you can create an own repository based on this repository.
+- Now you can create an own repository based on this repository.<!-- .element: class="fragment fade-up" -->
 
 </script></section><section  data-markdown><script type="text/template">
 
 ## Create a report
 
-- Luckily, it will be done automatically by github actions (due to the [make-pdf.yml file](.github/workflows/make-pdf.yml)) of course
-- If you now click on Actions tab and then on the first build 
+- Luckily, it will be done automatically by github actions (due to the [make-pdf.yml file](.github/workflows/make-pdf.yml)) of course<!-- .element: class="fragment fade-up" -->
+- If you now click on Actions tab and then on the first build <!-- .element: class="fragment fade-up" -->
 
-![Actions tab](images/actions1.jpg) 
+![Actions tab](images/actions1.jpg) <!-- .element: class="fragment fade-up" -->
 
 </script></section><section  data-markdown><script type="text/template">
-- then click on the report.pdf file if the build is green 
+- then click on the report.pdf file if the build is green <!-- .element: class="fragment fade-up" -->
 
-![Actions tab](images/actions2.jpg) 
+![Actions tab](images/actions2.jpg) <!-- .element: class="fragment fade-up" -->
 
-- you will download a PDF which was generated from the README.md file. Nice! 
-- How to adapt that see a later chapter. 
+- you will download a PDF which was generated from the README.md file. Nice! <!-- .element: class="fragment fade-up" -->
+- How to adapt that see a later chapter. <!-- .element: class="fragment fade-up" -->
   
 </script></section><section  data-markdown><script type="text/template">  
 
@@ -73,7 +73,7 @@ A useful template for making your slides with markdown and revealjs and on top o
 - Now I want a presentation from the same content.
 - Prerequisite is having docker installed on your machine.
   - [Get Docker | Docker Documentation](https://docs.docker.com/get-docker/)
-- With docker running, first **clone** your repository to your local machine. 
+- With docker running, first clone your repository to your local machine. 
 
 </script></section><section  data-markdown><script type="text/template">
 
@@ -87,12 +87,14 @@ docker run --rm -p 1948:1948 -v `pwd`:/slides webpronl/reveal-md:latest
 
 </script></section><section ><section data-markdown><script type="text/template">
 
-- Now open `http://localhost1948`in your browser.
-- click on the README.md link: 
-![README.md](images/reveal2.jpg)
-- HTML Presentation starts!
+- Now open `http://localhost1948`in your browser.<!-- .element: class="fragment fade-up" -->
+- click on the README.md link:<!-- .element: class="fragment fade-up" -->
 
-![README.md](images/reveal3.jpg)
+![README.md](images/reveal2.jpg)<!-- .element: class="fragment fade-up" -->
+
+- HTML Presentation starts!<!-- .element: class="fragment fade-up" -->
+
+![README.md](images/reveal3.jpg)<!-- .element: class="fragment fade-up" -->
 
 </script></section><section data-markdown><script type="text/template">
 
@@ -100,13 +102,13 @@ docker run --rm -p 1948:1948 -v `pwd`:/slides webpronl/reveal-md:latest
 
 ### Adapt presentation data
 
-- So you should of course change all the text here in the README.md file and put your own (course) content in here. 
+- So you should of course change all the text here in the README.md file and put your own (course) content in here. <!-- .element: class="fragment fade-up" -->
   
 </script></section><section data-markdown><script type="text/template">
 
 #### Adapt title, subtitle and more
 
-- to change it you have to change the parameters in the beginning of the document, here a snippet:
+- to change it you have to change the parameters in the beginning of the document, here a snippet:<!-- .element: class="fragment fade-up" -->
 
 </script></section><section data-markdown><script type="text/template">
 
