@@ -38,15 +38,15 @@ revealOptions:
 # Presentation slides and report template
 <!-- .slide: data-background="images/slides-headline-background.jpg" -->
 
-A useful template for making your slides with markdown and revealjs and on top of that create a nice pdf with eisvogel template.
+[FontysVenlo/slides-and-report-template: A useful template for making your slides with markdown and revealjs and on top of that create a nice pdf paper with eisvogel template](https://github.com/FontysVenlo/slides-and-report-template)
 
 <!-- s -->
 
 ## Why?
 
 - normal presentations are boring<!-- .element: class="fragment fade-up" -->
-- still differences in the platforms even in MS power point, e.g. Windows, Mac or Linux.<!-- .element: class="fragment" -->
-- Usually you multiple sources and multiple output documents so not only slides but maybe also papers you would like to provide for the students.<!-- .element: class="fragment" -->
+- still differences in the platforms even in MS power point, e.g. Windows, Mac or Linux, online Power Point.<!-- .element: class="fragment" -->
+- Usually you have multiple sources and multiple output documents so not only slides but maybe also papers you would like to provide for the students.<!-- .element: class="fragment" -->
 - These papers are currently in pdf form delivered to the students, and can also be simple pdfs of the slides.<!-- .element: class="fragment" -->
 - Solution wanted having one single source and decide what to have in the slides and maybe also additional and more detaillled information in a paper as pdf, docx or webpage.<!-- .element: class="fragment" -->
 
@@ -54,7 +54,8 @@ A useful template for making your slides with markdown and revealjs and on top o
 
 ## Current solution
 
-- [The HTML presentation framework | reveal.js](https://revealjs.com/) presentations.<!-- .element: class="fragment fade-up" -->
+[The HTML presentation framework | reveal.js](https://revealjs.com/) presentations.<!-- .element: class="fragment fade-up" -->
+
 - is still tech based (HTML)<!-- .element: class="fragment fade-up" -->
 - Now based on Markdown, as simple language<!-- .element: class="fragment fade-up" -->
 - Simple to write and support for transforming it into other document types, e.g. with pandoc is pretty good.<!-- .element: class="fragment fade-up" -->
@@ -63,7 +64,7 @@ A useful template for making your slides with markdown and revealjs and on top o
 
 ## How to use this template
 
-- Use this as **template** instead of cloning it, so you get rid of all the commits. Click on the template-button near to the cloning option <!-- .element: class="fragment fade-up" -->
+- Use this as template instead of cloning it, so you get rid of all the commits. Click on the template-button near to the cloning option <!-- .element: class="fragment fade-up" -->
   
 ![Template button](images/template-button.jpg)<!-- .element: class="fragment fade-up" -->
 
@@ -93,11 +94,11 @@ A useful template for making your slides with markdown and revealjs and on top o
 - Now I want a presentation from the same content.
 - Prerequisite is having docker installed on your machine.
   - [Get Docker | Docker Documentation](https://docs.docker.com/get-docker/)
-- With docker running, first clone your repository to your local machine. 
+- With docker running, first clone your repository to your local machine.
 
 <!-- s -->
 
-- Go into the directory and do the following in a Terminal/Command line: 
+- Go into the directory and do the following in a Terminal/Command line:
 
 ```bash
 docker run --rm -p 1948:1948 -v `pwd`:/slides webpronl/reveal-md:latest
@@ -124,6 +125,9 @@ docker run --rm -p 1948:1948 -v `pwd`:/slides webpronl/reveal-md:latest
 - Check the settings of your repository, and activate github pages on gh-pages branch
 - done! You can access it online via the url which is published there.
 
+- Github repo url: [https://github.com/FontysVenlo/slides-and-report-template](https://github.com/FontysVenlo/slides-and-report-template)
+- Will deploy it then on [https://fontysvenlo.github.io/slides-and-report-template](https://fontysvenlo.github.io/slides-and-report-template/)
+- Your URL will be similar, you can see that in the settings then.
 
 <!-- v -->
 
