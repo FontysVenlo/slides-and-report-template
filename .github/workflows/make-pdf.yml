@@ -1,6 +1,6 @@
 name: Create PDF report
 
-on: push
+on: push 
 
 jobs:
   convert_via_pandoc:
