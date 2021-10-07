@@ -2,6 +2,8 @@ name: Create PDF report
 
 on: push 
 
+
+
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
