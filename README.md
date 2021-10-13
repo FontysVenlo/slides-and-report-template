@@ -36,7 +36,6 @@ revealOptions:
 ---
 
 # Presentation slides and report template
-<!-- .slide: data-background="images/slides-headline-background.jpg" -->
 
 [FontysVenlo/slides-and-report-template: A useful template for making your slides with markdown and revealjs and on top of that create a nice pdf paper with eisvogel template](https://github.com/FontysVenlo/slides-and-report-template)
 
